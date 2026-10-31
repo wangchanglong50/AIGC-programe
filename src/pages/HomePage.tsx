@@ -109,7 +109,7 @@ export function HomePage() {
 
           <div className="tool-grid">
             {TOOLS.map((tool) => (
-              <a key={tool.id} className="tool-card" href={`#${tool.path}`}>
+            <a key={tool.id} className="tool-card" href={tool.path} target="_blank" rel="noopener noreferrer">
                 <span className="tool-card__icon">{tool.icon}</span>
                 <span className="tool-card__content">
                   <span className="tool-card__row">
