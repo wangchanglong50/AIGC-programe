@@ -45,6 +45,17 @@ const TOOLS: ToolEntry[] = [
     note: '说明：本功能目前仅在电脑端可用，手机端打开时无法读取作业。',
     icon: <ClipboardIcon />,
   },
+  {
+  id: "gpa-calc",
+  name: "杭电GPA计算器",
+  path: "/gpa-hdu.html",
+  description: "杭电5分制绩点计算，支持补考成绩",
+  tags: ["成绩"],
+  status: "已上线",
+  statusTone: "ok",
+  note: "",
+  icon: <GridIcon />
+},
 ]
 
 export function HomePage() {
